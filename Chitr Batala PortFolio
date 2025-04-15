@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Portfolio</title>
+</head>
+<body>
+  <h1 style="text-align: center">CHITR BATALA PORTFOLIO</h1>
+  <hr>
+  <marquee behavior="scroll" direction="right">Welcome to Chitr Batala's Portfolio</marquee>
+  <img src="/Images/chitr-profile-picture.jpg"
+   alt="chitr profile" width="100px" height="100px" style="border-radius: 50%;" >
+
+
+   <h2>About:</h2>
+   <p>Hey there I'M <b>Chitr Batala</b> 
+    a passionate web developer 
+    currently pursuing <i>B.Tech</i> from <u>galgotias university.</u>
+  </p>
+  <hr>
+
+  <h2>Skills:</h2>
+
+  <table border="2" style="width: 500px; height: 300px;">
+    <tr >
+      <th>Skills</th>
+      <th>Ratings</th>
+    </tr>
+
+    <tr>
+      <td>Java</td>
+      <td>4/5</td>
+    </tr>
+
+    <tr>
+      <td>DSA</td>
+      <td>3/5</td>
+    </tr>
+
+    <tr>
+      <td>Communication</td>
+      <td>3.5/4</td>
+    </tr>
+
+    <tr>
+      <td>Python</td>
+      <td>3/5</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h2>Hobbies:</h2>
+  <ul>
+    <li>Coding</li>
+    <li>Listening to music</li>
+    <li>Reading</li>
+    <li>Watching Animes</li>
+    <li>Exploring History</li>
+  </ul>
+  <hr>
+
+  <a href="https://github.com/Chitrbatala">Github</a> |
+  <a href="https://leetcode.com/u/chitrbatala/">Leetcode</a> |
+  <a href="https://www.linkedin.com/in/chitr-batala-45b146265/">Linkedin</a>
+
+
+
+
+</body>
+</html>
