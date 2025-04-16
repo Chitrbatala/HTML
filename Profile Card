@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profilr Card</title>
+  <link rel="stylesheet" href="/CSS/task8.css">
+</head>
+<body>
+  <div class="card">
+    <marquee style="color: brown;" behavior="scroll" direction="right">Budhii</marquee>
+  <img src="/Images/chitr-profile-picture.jpg" alt="chitr-profile" class="profile">
+  <div class="intro">
+    <h2>Chitr Batala</h2>
+    <p>Role: Web Developer</p>
+  </div>
+
+  <div class="about">
+    <p>I love web dev and right now I am learning css box model</p>
+  </div>
+</div>
+</body>
+</html>
+
+
+// CSS
+
+.card {
+  background-color: aqua;
+  padding: 20px;
+  border: 2px solid #333;
+  width: 600px;
+  margin: 100px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.about {
+  color: blue;
+  font-family: Arial;
+  font-weight: bold;
+}
+
